@@ -1,0 +1,31 @@
+{
+  "environment": "web",
+  "source": "1bbIifv_99IoSNKWR1COj6G3Bd1IqvhfWuQtE4EbalIM",
+  "format": "ubuntu-template.html",
+  "prefix": "../../..",
+  "mainga": "UA-1018242-64",
+  "updated": "2019-02-27T15:06:17Z",
+  "id": "rysi2019-intro",
+  "duration": 42,
+  "title": "Tópicos Selectos en Aplicaciones Distribuidas Móviles",
+  "summary": "Ofrecer una vista general del ecosistema de programación Jupyter Notebooks como punto de partida para desarrollar prototipos de aplicaciones móviles basadas en Android",
+  "theme": "python",
+  "status": [
+    "draft"
+  ],
+  "category": [
+    "Python",
+    "Android",
+    "Jupyter"
+  ],
+  "tags": [
+    "android",
+    "colab",
+    "jupyter",
+    "python",
+    "rysi"
+  ],
+  "feedback": "https://github.com/htapiagroup/htapiagroup.github.io/issues",
+  "ga": "UA-134300173-1",
+  "url": "rysi2019-intro"
+}

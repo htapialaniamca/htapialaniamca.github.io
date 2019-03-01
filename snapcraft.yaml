@@ -1,0 +1,31 @@
+name: snap-codelabs
+version: "1.0"
+summary: Ubuntu codelabs offline website for using and creating snaps.
+description: |
+  Codelabs to learn how to use and create snaps. This snap is for an offline
+  usage, filtering on snap specific lessons to get your easily started via
+  step by step courses!
+  Head your browser over http://localhost:8123 to start having fun learning!
+grade: stable
+confinement: strict
+
+apps:
+  server:
+    command: server
+    daemon: simple
+    plugs: [network-bind]
+        
+parts:
+  snap-codelabs:
+    source: .
+    plugin: dump
+    filesets:
+      striptools:
+        - -*.json
+        - -codelabs
+        - -tests/
+        - -tools/
+    stage:
+      - $striptools
+    snap:
+      - $striptools
